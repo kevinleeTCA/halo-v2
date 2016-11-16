@@ -6,6 +6,7 @@ import {Component, OnInit} from '@angular/core'
     template: `
         <div>
             This will show details of each navigation item
+            <router-outlet></router-outlet>
         </div>
     `
 })

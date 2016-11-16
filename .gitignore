@@ -1,5 +1,5 @@
-app/*.js
-app/*.js.map
+*.js
+*.js.map
 *.iml
 node_modules
 typings

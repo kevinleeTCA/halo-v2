@@ -18,6 +18,9 @@ import {Component, OnInit} from '@angular/core'
             width: 299px;
         }
 
+        .active {
+            font-weight: bold;
+        }
     `]
 })
 export class NavigationLHSComponent implements OnInit{

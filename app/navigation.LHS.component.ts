@@ -22,7 +22,7 @@ import {Component, OnInit} from '@angular/core'
 })
 export class NavigationLHSComponent implements OnInit{
     abstract;
-    items: string[];
+    items: { title: string; path: string }[];
 
     ngOnInit(): void{
         this.items = [

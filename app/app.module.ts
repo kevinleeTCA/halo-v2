@@ -30,10 +30,14 @@ import { TopicDetailComponent } from './topic/topicDetail.component'
             {
                 path: 'topics',
                 component: TopicComponent,
-                children: [{
-                    path: ':id',
-                    component: TopicDetailComponent
-                }]
+                //children: [{
+                //    path: ':id',
+                //    component: TopicDetailComponent
+                //}]
+            },
+            {
+                path: 'topics/:id',
+                component: TopicDetailComponent
             },
             {
                 path: 'cases',
